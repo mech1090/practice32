@@ -8,7 +8,7 @@ const SchemaDef = new mongoose.Schema({
     },
     password:{
         type:String,
-        required:tru
+        required:true
     }
 },{
     collection : "Practice 32 User"
